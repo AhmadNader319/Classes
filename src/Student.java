@@ -2,8 +2,7 @@ public class Student {
     private int id;
     private BirthDate birthDate;
 
-    public Student(int ssn,
-                   int year, int month, int day) {
+    public Student(int ssn, int year, int month, int day) {
         id = ssn;
         birthDate = new BirthDate(year, month, day);
     }

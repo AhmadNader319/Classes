@@ -3,8 +3,10 @@ public class BirthDate {
     private int month;
     private int day;
 
-    public BirthDate(int newYear,
-                     int newMonth, int newDay) {
+    public BirthDate(){
+
+    }
+    public BirthDate(int newYear, int newMonth, int newDay) {
         year = newYear;
         month = newMonth;
         day = newDay;
